@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head charset="utf-8">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="form.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Cadastro</h1>
+        <form action="#6a77e9od="Post">
+            <fieldset>
+                <legend>Dados do Usuário</legend>
+                <label>Informe seu Nome:</label>
+                <input type="text" name="nome">
+                <label>Informe seu email:</label>
+                <input type="email" name="email">
+                <label>idade:</label>
+                <input type="idade" name="senha">
+                <label>Data:</label>
+                <input type="date" name="data">
+            </fieldset>
+            
+            <h2>Sobre você</h2>
+            <label for="sexo">Informe o Sexo:</label>
+            <input type="radio" name="sexo" label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" label for="feminino">Feminino</label>
+            <input type="radio" name="sexo" label for="outros">Outros</label>
+             
+            <h2>Localização</h2>
+            <label for="sexo">De onde você é?:</label>
+            <select name="local">
+                <option></option>
+                <option>São Paulo</option>
+                <option>Belo Horizonte</option>
+                <option>Rio de Janeiro</option>
+                <option>Brasilia</option>
+                <option>Minas Gerais</option>
+            </select>
+            <br>
+
+            <h2>o que achou do site?</h2>
+            <label for="Opnião">Opnião:</label>
+            <input type="radio" name="Opnião" label="Bom">Bom</label>
+            <input type="radio" name="Opnião" label="Ruim">Ruim</label>
+            <input type="radio" name="Opnião" label="Médio">Médio</label>
+
+            <h2>Comentários</h2>
+            <labe>Digite aqui:</labe><br>
+            <textarea></textarea>
+            
+            <fieldset>
+                <legend>Finalizar</legend>
+                <input type="reset" value="limpar"/>
+                <input type="submit" value="enviar"/>
+            </fieldset>
+        </form>
+        <p><a href="index.html">Voltar para a home</a></p>
+    </body>
+</html>

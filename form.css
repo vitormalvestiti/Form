@@ -1,0 +1,29 @@
+h1, h2 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+body {
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14;
+    background-color: rgb(219, 210, 210);
+}
+label {
+    margin-top: 10px;
+    display: block;   
+}
+input[type="text"], [type="email"], [type="password"], [type="date"] {  
+    width: 400px;
+    border: 1px solid brown;
+    padding: 6px;       
+    margin-top: 6px;
+}
+fieldset{
+    border: 2px solid rgb(0, 0, 0);
+}
+textarea {
+    width: 300px;
+    height: 200px;
+    resize: none;
+}
